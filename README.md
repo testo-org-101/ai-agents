@@ -39,7 +39,7 @@ Submit all project requirements in a single zipped folder
 
 ## Contributors
 
-Course contributors will be listed here.
+- undefined
 
 ---
 
