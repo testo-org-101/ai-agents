@@ -1,0 +1,194 @@
+{
+  "id": "687827f30381bd6207c1d284",
+  "lessonNumber": 4,
+  "title": "Evaluating AI Agents",
+  "status": "complete",
+  "assignment": {
+    "title": "Evaluate an AI Agent",
+    "objective": "Apply evaluation techniques to assess an AI agent's performance and suggest improvements.",
+    "expectedCapabilities": [
+      "Calculate and interpret various performance metrics",
+      "Apply testing methods for AI agents",
+      "Understand feedback loops in AI systems"
+    ],
+    "submissionInstructions": "Submit a report with calculated metrics, test results, and a brief on improving the agent.",
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "title": "Calculate F1 Score for an AI Agent",
+        "description": "Implement a method to calculate the F1 Score given precision and recall values to assess an agent's decision-making accuracy.",
+        "codeExample": "def calculate_f1(precision, recall): return 2 * (precision * recall) / (precision + recall)",
+        "_id": "687828150381bd6207c1d2be"
+      }
+    ],
+    "instructions": [
+      {
+        "partNumber": 1,
+        "steps": [
+          {
+            "taskNumber": 1,
+            "title": "Select Performance Metrics",
+            "description": "Choose appropriate metrics such as precision, recall, and F1 Score for the AI agent of choice.",
+            "codeExample": "# Choose metrics based on agent's task such as classification.",
+            "_id": "687828150381bd6207c1d2ba"
+          },
+          {
+            "taskNumber": 2,
+            "title": "Implement a Test Suite",
+            "description": "Write unit and integration tests to ensure all agent's functionalities perform correctly.",
+            "codeExample": "# Referring to the unit test example",
+            "_id": "687828150381bd6207c1d2bb"
+          }
+        ],
+        "_id": "687828150381bd6207c1d2b9"
+      },
+      {
+        "partNumber": 2,
+        "steps": [
+          {
+            "taskNumber": 3,
+            "title": "Create a Feedback Loop",
+            "description": "Implement a basic feedback mechanism to enhance the agent's decision-making capabilities.",
+            "codeExample": "# Using feedback pseudocode provided",
+            "_id": "687828150381bd6207c1d2bd"
+          }
+        ],
+        "_id": "687828150381bd6207c1d2bc"
+      }
+    ],
+    "checklist": [
+      "Metrics Selected",
+      "Tests Written and Run",
+      "Feedback Loop Implemented",
+      "Report Submitted"
+    ],
+    "checkForUnderstanding": [
+      {
+        "question": "How do you define F1 Score in AI evaluations?",
+        "options": [
+          "It measures diversity",
+          "It balances precision and recall",
+          "It represents data size"
+        ],
+        "answer": "It balances precision and recall",
+        "_id": "687828150381bd6207c1d2b7"
+      },
+      {
+        "question": "How does continuous evaluation benefit AI agents?",
+        "options": [
+          "Makes the agent larger",
+          "Improves speed over time",
+          "Enables adaptation and improvement"
+        ],
+        "answer": "Enables adaptation and improvement",
+        "_id": "687828150381bd6207c1d2b8"
+      }
+    ]
+  },
+  "subsections": [
+    {
+      "subsectionOrder": 1,
+      "title": "Introduction to Evaluating AI Agents",
+      "content": "Evaluating AI agents is a critical step in understanding their efficiency, capability, and suitability for specific tasks. This involves performance metrics, testing, and analysis methodologies that provide insight into the agent's operation.",
+      "videoUrl": "http://video.com/introductionToEvaluation",
+      "codeExamples": [
+        "# No direct code, focus is theoretical understanding"
+      ],
+      "externalLinks": [
+        "https://en.wikipedia.org/wiki/Software_testing"
+      ],
+      "quizzes": [
+        {
+          "question": "Why is evaluation important in AI agents?",
+          "options": [
+            "To build agents faster",
+            "To understand agent efficiency and capability",
+            "To make agents visually appealing"
+          ],
+          "answer": "To understand agent efficiency and capability",
+          "_id": "687828150381bd6207c1d2b0"
+        }
+      ],
+      "_id": "687828150381bd6207c1d2af"
+    },
+    {
+      "subsectionOrder": 2,
+      "title": "Performance Metrics",
+      "content": "Various performance metrics such as accuracy, precision, recall, and F1 score help in evaluating AI agents. Understanding these metrics aids in adjusting the agents for better results.",
+      "videoUrl": "http://video.com/performanceMetrics",
+      "codeExamples": [
+        "# Example: Calculating F1 Score\n# precision = true_positives / (true_positives + false_positives)\n# recall = true_positives / (true_positives + false_negatives)\n# F1 = 2 * (precision * recall) / (precision + recall)"
+      ],
+      "externalLinks": [
+        "https://scikit-learn.org/stable/modules/model_evaluation.html"
+      ],
+      "quizzes": [
+        {
+          "question": "Which metric is used to balance precision and recall?",
+          "options": [
+            "Accuracy",
+            "Loss Function",
+            "F1 Score"
+          ],
+          "answer": "F1 Score",
+          "_id": "687828150381bd6207c1d2b2"
+        }
+      ],
+      "_id": "687828150381bd6207c1d2b1"
+    },
+    {
+      "subsectionOrder": 3,
+      "title": "Agent Testing Methods",
+      "content": "Common methods include unit tests, integration tests, and simulation testing. Each testing type serves a unique role in ensuring the AI agent performs as intended.",
+      "videoUrl": "http://video.com/agentTestingMethods",
+      "codeExamples": [
+        "# Example of a unit test in Python\nimport unittest\nclass TestAgent(unittest.TestCase):\n def test_behavior(self):\n self.assertEqual(agent.action(), expected_action)"
+      ],
+      "externalLinks": [
+        "https://realpython.com/python-testing/"
+      ],
+      "quizzes": [
+        {
+          "question": "What is the purpose of unit tests?",
+          "options": [
+            "Test the entire system",
+            "Test individual components",
+            "Test graphical interfaces"
+          ],
+          "answer": "Test individual components",
+          "_id": "687828150381bd6207c1d2b4"
+        }
+      ],
+      "_id": "687828150381bd6207c1d2b3"
+    },
+    {
+      "subsectionOrder": 4,
+      "title": "Continuous Evaluation and Feedback Loops",
+      "content": "Implementing continuous evaluation through feedback loops allows AI agents to adapt and improve over time. This is crucial in dynamic environments where conditions change frequently.",
+      "videoUrl": "http://video.com/evaluationFeedbackLoops",
+      "codeExamples": [
+        "# Feedback loop in pseudocode\nfor each interaction:\n result = agent.interact()\n performance_metrics = evaluate(result)\n agent.update(performance_metrics)"
+      ],
+      "externalLinks": [],
+      "quizzes": [
+        {
+          "question": "Why are feedback loops important in AI agent evaluation?",
+          "options": [
+            "To refactor code",
+            "To allow agents to adapt and improve",
+            "To reduce computation time"
+          ],
+          "answer": "To allow agents to adapt and improve",
+          "_id": "687828150381bd6207c1d2b6"
+        }
+      ],
+      "_id": "687828150381bd6207c1d2b5"
+    }
+  ],
+  "supplementalVideos": [
+    "http://video.com/advancedMetrics"
+  ],
+  "references": [
+    "https://towardsdatascience.com/evaluation-metrics-for-machine-learning-5036f218c6a6"
+  ]
+}
