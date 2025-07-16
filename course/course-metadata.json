@@ -1,0 +1,31 @@
+{
+  "id": "687827f30381bd6207c1d27c",
+  "title": "AI Agents",
+  "description": "This course provides an in-depth look at AI agents, their design, application, and evaluation.",
+  "learningObjectives": [
+    "Understand the fundamental concepts and theories of AI agents",
+    "Develop basic AI agents using Python",
+    "Evaluate and adjust AI agents performance"
+  ],
+  "finalProjectDetails": {
+    "overview": "For the final project, students will design, implement, and evaluate an AI agent.",
+    "planningResources": [
+      "AI agent design template",
+      "Python AI agent coding resources",
+      "AI agent evaluation rubric"
+    ],
+    "submissionInstructions": "Submit all project requirements in a single zipped folder",
+    "requirements": [
+      ""
+    ]
+  },
+  "createdBy": {
+    "name": "Tammam Alwafai",
+    "githubUsername": "1992tw"
+  },
+  "contributors": [],
+  "status": "pending",
+  "originalGithubUrl": null,
+  "createdAt": "2025-07-16T22:30:11.461Z",
+  "updatedAt": "2025-07-16T22:30:11.461Z"
+}
